@@ -14,6 +14,10 @@ const {ShoppingList} = require('./models');
 // interact with in our GET endpoint
 const {Recipes} = require('./models');
 
+// can initialize both ShoppingList and Recipes simultaneously with this line:
+// const {ShoppingList, Recipes} = require('./models');
+
+
 const jsonParser = bodyParser.json();
 const app = express();
 
