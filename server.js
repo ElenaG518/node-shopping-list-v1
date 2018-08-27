@@ -15,7 +15,7 @@ const {ShoppingList} = require('./models');
 const {Recipes} = require('./models');
 
 // can initialize both ShoppingList and Recipes simultaneously with this line:
-// const {ShoppingList, Recipes} = require('./models');
+ // const {ShoppingList, Recipes} = require('./models');
 
 
 const jsonParser = bodyParser.json();
